@@ -1,0 +1,391 @@
+body{
+    
+   
+    margin-top: 0;
+    margin-left: 0;
+    overflow: hidden;
+}
+.container{
+    background:linear-gradient(to bottom, rgb(0, 206, 255),15%,white);
+    height: 500px;
+}
+.ini{
+    border-radius: 30px;
+    border: 0; 
+    background: rgb(0, 206, 255);
+    padding: 1vw;
+    width: 80%;
+    color: white;
+    font-family: 'Roboto';font-size:17px;
+}
+.ini:hover{
+    background: rgb(2, 181, 226);
+    cursor: pointer;
+}
+td:hover{
+    cursor: pointer;
+    color: darkred;
+    text-decoration: underline;
+}
+
+.ipn{
+    margin-top: 1px;
+    margin-left: 1vw;
+   
+   }
+   .marcas{
+       border-spacing: 90px;
+   }
+   td{
+       padding: 20px;
+       border-radius: 7px;
+       color: darkred;
+       -webkit-transition: all 200ms ease-out;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-out;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-out;
+    -moz-transform: scale(1);
+   }
+   .dropbtn {
+    background-color: #cbdae400;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: .6vw;
+  }
+  .dropbtn:hover{
+    color: white;
+  }
+  *{
+    font-family: 'Roboto';
+  }
+
+  .dropbtn1 {
+    background-color: #cbdae400;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  
+  .dropfiltro {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #00000000;
+    z-index: 5;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+  }
+ 
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    float: right;
+    background-color: hsla(0, 0%, 100% );
+    min-width: 270px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    margin-top: -39px;
+    right: 0;
+    position: fixed;
+   
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: 'Roboto';
+  }
+  .butcar{
+   
+    width:72%;
+    
+   }
+  .butcarr{
+    background-color: rgba(255, 255, 255);
+    border-top: white 1px solid;
+    border-left: 0;
+    border-right: white 1px solid;
+    border-bottom:  white 1px solid;
+    margin-top: 14px;
+    
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  
+
+  }
+  .nav{
+    display: inline-flex;
+    margin-left: 25vw;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 7px;
+    background-color: rgba(255, 255, 255);
+    border: white 1px solid;
+    font-family: 'Roboto';
+    color: black;
+   
+    font-size: 17px;
+    margin-top: 14px;
+    border-right: 0;
+    width: 32vw;
+    
+    
+  }
+
+  .titulo{
+    font-family: 'Roboto';
+    align-self: center;
+   
+    color: #74003E;
+    font-size: 40px ;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 100px;
+    z-index: -1;
+    
+    margin-top: 100px;
+    margin-left: 44%;
+  }
+  
+ 
+ 
+  .nav::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    color: red;
+  }
+  .butcarr:focus{
+    outline: white;
+  }
+
+ 
+  .nav:focus{
+   outline: none;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color: #74003E;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+   
+   ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 2px;
+       overflow: hidden;
+       background-color: rgb(0, 217, 255);
+       border-bottom: 1px rgb(223, 222, 222) solid;
+       position: fixed;
+       width: 100%;
+       top: 0;
+    
+       z-index: 20;
+       font-size:20px;
+     }
+     
+     li {
+       float: left;
+     
+     }
+     
+     li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 14px;
+       position: relative;
+       text-decoration: none;
+       padding-top: 17%;
+       padding-bottom: 0px;
+       font-size: 17px;
+       font-family: 'Roboto';
+     }
+     
+     li a:hover {
+       
+       color: #74003E;
+     }
+     
+     select{
+       background-color:rgba(0, 0, 0, 0);
+       color: white;
+       border-radius: 20px;
+       font-size: 15px;
+     }
+     select:focus{
+       outline: none;
+     }
+     option{
+       background-color: rgba(0, 0, 0, 0.72);
+     }
+     .boton{
+        
+        padding: .5vw;
+         background: none;
+         border-radius: 15px;
+         border:0;
+         background: white;
+         width: 65%;
+         height: 15%;
+         font-size: medium;
+         margin-top: 1vw;
+         font-weight: 500;
+         margin-left: 2vw;
+     }
+     
+     .articulosn{
+         margin-left: 3vw;
+         width: 400px;
+         background: rgb(245, 241, 241);
+         height: 230px;
+         display: inline-flex;
+         margin-bottom: 20px;
+     }
+     .productos{
+        margin-left: 3vw;
+        width: 300px;
+        background: rgb(245, 241, 241);
+        height: 350px;
+        display: inline-flex;
+        margin-bottom: 20px;
+        margin-right: -1.5vw;
+
+     }
+     .prodimg{
+         width: 45%;
+         margin-top: 2vw;
+
+     }
+     .comicname{
+         font-weight: 400;
+     }
+     .productos:hover{
+         color: white;
+         background: linear-gradient(rgb(0, 145, 255),rgb(0, 238, 255),rgb(0, 255, 187));
+         cursor: pointer;
+         
+     }
+     .articulosn:hover{
+       color: white;
+       background: linear-gradient(rgb(107, 2, 107),50%,rgb(189, 0, 226));
+       box-shadow: black;
+
+       }
+    .articulosn:hover .boton{
+           background: none;
+           border: 2px solid white;
+           color: white;
+       }
+     
+       .articulosn:hover .boton:hover{
+         background: white;
+         color: rgb(107, 2, 107);
+         font-weight: 600;
+     }
+     .comimg{
+         width: 30%;
+         height: 70%;
+         margin-top: 2vw;
+         display: inline-flex;
+         margin-left: 3vw;
+     }
+     .semana{
+        margin-left: 1vw;
+        margin-top: 3vw;
+        font-weight: 420;
+        font-family: 'Roboto';
+     }
+     .artp{
+        margin-left: 1vw;
+         
+         font-size: large;
+     }
+     .datos{
+   
+         width: 240px;
+     }
+     
+     input[type=checkbox]{
+      margin-right: .5vw;
+       margin-left: 1vw;
+       border-radius: 5px;
+     }
+
+     input[type=time]{
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      border: 1px white solid;
+      border-radius: 5px;
+     }
+     input[type=date]{
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      border: 1px white solid;
+      border-radius: 5px;
+     }
+
+     input[type=time]:focus{
+       outline: none;
+     }
+     input[type=date]:focus{
+      outline: none;
+    }
+    ::-webkit-calendar-picker-indicator {
+      filter: invert(1);
+  }
+  
+
+    .container::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    
+    .container::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.72);
+    
+    }
+    
+    .container::-webkit-scrollbar-thumb:active {
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .container::-webkit-scrollbar-thumb:hover {
+      background: rgb(0, 217, 255);
+     
+    }
+    
+    .container::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.85);
+      
+    }
+    
+    .container::-webkit-scrollbar-track:hover, 
+    .container::-webkit-scrollbar-track:active {
+      background: rgba(255, 255, 255, 0.85);
+    }
+    
+   
